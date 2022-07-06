@@ -1,0 +1,7 @@
+
+We have two entities that are: Clients and Users, We can create, update and getAll for Clients but
+For the Users we need to add the operation of delete.
+
+
+The information about Clients are: name, id, age
+About user we need to persistence: email, password, rol and code
