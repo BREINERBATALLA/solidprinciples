@@ -1,6 +1,6 @@
 package LiskovSubstitution.WithPrinciple;
 
-public class WinbledonCourt extends Court implements IGrassCourt, IMaintenanceCourt {
+public class WinbledonCourt extends Court {
 
     public WinbledonCourt(double height, double width) {
         super(height, width);
@@ -8,11 +8,7 @@ public class WinbledonCourt extends Court implements IGrassCourt, IMaintenanceCo
 
     @Override
     public void cutGrass() {
-        System.out.println("Cutting glass");
+        System.out.println("Cutting winbledon's glass");
     }
 
-    @Override
-    public void maintenance() {
-        cutGrass();
-    }
 }

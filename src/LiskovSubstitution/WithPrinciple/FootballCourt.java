@@ -1,6 +1,6 @@
 package LiskovSubstitution.WithPrinciple;
 
-public class FootballCourt extends Court implements IGrassCourt, IMaintenanceCourt{
+public class FootballCourt extends Court {
 
     public FootballCourt(double height, double width) {
         super(height, width);
@@ -8,11 +8,7 @@ public class FootballCourt extends Court implements IGrassCourt, IMaintenanceCou
 
     @Override
     public void cutGrass() {
-        System.out.println("Cutting grass");
+        System.out.println("Cutting football's grass");
     }
 
-    @Override
-    public void maintenance() {
-        cutGrass();
-    }
 }

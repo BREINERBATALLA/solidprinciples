@@ -1,6 +1,6 @@
 package LiskovSubstitution.WithPrinciple;
 
-public class Court {
+public abstract class Court {
     protected  double height;
     protected double width;
 
@@ -8,4 +8,6 @@ public class Court {
         this.height = height;
         this.width = width;
     }
+
+    public abstract void cutGrass();
 }
