@@ -1,11 +1,10 @@
 package OpenClosed.WithPrinciple;
 
 public class Employee{
-    private String name;
-    private int age;
-    private int id;
-    private double salary;
-
+    protected String name;
+    protected int age;
+    protected int id;
+    protected double salary;
 
     public Employee(String name, int age, int id, double salary) {
         this.name = name;
